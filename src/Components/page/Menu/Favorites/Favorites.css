@@ -1,0 +1,58 @@
+.favorites {
+  padding: 0 0 50px 0;
+  width: 320px;
+}
+.fav-head {
+  font: 800 24px/1.5 "Noto Sans JP", sans-serif;
+  color: #000000de;
+  margin: 40px 0;
+}
+.fav-content {
+  font: 600 28px/1.385 "Noto Sans JP", sans-serif;
+  color: #000000de;
+  margin: 16px 0 0;
+}
+.fav-text {
+  font: 400 19px/1.5 "Noto Sans JP", sans-serif;
+  margin: 16px 0;
+  color: #00000094;
+}
+.fav-btns {
+  padding: 8px 0 0;
+}
+.fav-btns a:first-child {
+  background: none;
+  color: #000000de;
+  border-radius: 50px;
+  border: 1px solid #000000de;
+  display: inline-block;
+  font: 600 16px/1.2 "Noto Sans JP", sans-serif;
+  padding: 7px 16px;
+  text-align: center;
+  transition: 0.5s;
+}
+.fav-btns a:last-child {
+  background: #000000de;
+  color: #fff;
+  border-radius: 50px;
+  border: 1px solid #000000de;
+  display: inline-block;
+  font: 600 16px/1.2 "Noto Sans JP", sans-serif;
+  padding: 7px 16px;
+  text-align: center;
+  margin: 0 0 0 16px;
+  transition: 0.5s;
+}
+.kaset {
+  width: 200px;
+}
+.kaset img {
+  width: 100%;
+}
+.fav-btns a:first-child:hover {
+  background-color: #0000001e;
+}
+.fav-btns a:last-child:hover {
+  background-color: #000000ae;
+  border: 1px solid #000000ae;
+}

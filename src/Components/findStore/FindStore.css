@@ -1,0 +1,62 @@
+.findstore-head{
+    display: flex;
+    gap: 30px;
+    flex-grow: 1 !important;
+}
+.findstore-head{
+    padding: 16px 16px;
+}
+.search{
+    display: flex;
+    position: relative;
+    flex-grow: 1;
+}
+.search input{
+    border: 0;
+    border-bottom: 1px solid #00000094;
+    outline: none;
+    width: 100%;
+}
+.search svg{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.findstore-btn{
+    background: none;
+    border-radius: 50px;
+    border: 1px solid #000000de;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.findstore-text{
+    padding: 24px 16px;
+    height: 40vh;
+}
+.findstore-link{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 9px 24px;
+}
+.findstore-link a{
+    margin: 10px 0;
+    color: #00754a;
+    font-size: 18px;
+}
+.findstore-flex{
+    display: flex;
+}
+.findstore-map{
+    width: 100%;
+}
+.findstore-box{
+     background-color: #fff;
+     flex-basis: 60vw;
+}

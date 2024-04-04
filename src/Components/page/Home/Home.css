@@ -1,0 +1,96 @@
+.home img {
+  width: 100%;
+  height: 100%;
+}
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5,
+.section-6 {
+  margin: 32px 0;
+}
+.section-1-text,
+.section-2-text,
+.section-3-text,
+.section-4-text,
+.section-5-text,
+.section-6-text {
+  margin-top: -4px;
+  padding: 32px 16px;
+  text-align: center;
+}
+.section-1-text {
+  background-color: #cfd84d;
+}
+.section-head-content {
+  font: 600 28px/1.2 "Noto Sans JP", sans-serif;
+  color: #1e3932;
+  letter-spacing: 1px;
+  margin: 0 0 24px;
+}
+.section-text {
+  font: 600 14px/1.5 "Noto Sans JP", sans-serif;
+  padding: 0 15px;
+}
+.section-1 a,
+.section-2 a,
+.section-3 a,
+.section-4 a,
+.section-5 a,
+.section-6 a {
+  display: inline-block;
+  margin: 32px 0 0;
+  padding: 7px 16px;
+  border-radius: 50px;
+  border: 1px solid #1e3932;
+  font: 600 14px/1.2 "Noto Sans JP", sans-serif;
+  color: #1e3932;
+}
+.section-1 a:hover,
+.section-2 a:hover,
+.section-3 a:hover,
+.section-4 a:hover,
+.section-5 a:hover,
+.section-6:hover {
+  background-color: #1e39321a;
+}
+.section-2-text {
+  background-color: #a5c4dc;
+}
+.section-3-text {
+  background-color: #fdd8f7;
+}
+.section-4-text {
+  background-color: #cfd84d;
+}
+
+.section-5-text {
+  background-color: #1e3932;
+}
+.section-6-text {
+  background-color: #006241;
+}
+.section-5-text .section-head-content,
+.section-5-text .section-text,
+.section-5-text a,
+.section-6-text .section-head-content,
+.section-6-text .section-text,
+.section-6-text a
+{
+    color: #fff;
+}
+.section-5-text a,.section-6-text a{
+    border: 1px solid #fff;
+}
+.end-content{
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+.end-content p{
+  font: 400 13px/1.8 "Noto Sans JP", sans-serif;
+  padding: 0 16px;
+  text-align: center;
+  max-width: 600px;
+}

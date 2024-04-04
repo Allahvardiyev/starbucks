@@ -1,0 +1,112 @@
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px;
+
+}
+.signin-head {
+  font: 700 28px/1.385 Arial, Helvetica, sans-serif;
+  padding: 24px 16px;
+  margin: 0 0 8px;
+}
+.signin-head h2{
+    font-weight: 700;
+}
+p,span {
+  color: #075407;
+  margin-right: 2px;
+  font-size: 16px;
+}
+.signin-box{
+    margin-bottom: 20px;
+}
+.signin-box .input1 div,
+.input2 div {
+  width: 100%;
+  border-radius: 15px;
+  border-color: rgba(0, 0, 0, 0.23);;
+}
+.signin-box .input1,.input2{
+    margin: 20px 0;
+}
+.signin-box .check{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.signin-box .check span{
+    color: #00754a;
+}
+.signin-box .check p{
+    margin: 0;
+}
+.signin-box .check a{
+    color: #075407;
+    font-size: 18px;
+    font-weight: 600;
+}
+.signin-box a{
+color: #075407;
+font-size: 18px;
+font-weight: 600;
+text-decoration: dotted !important;
+}
+.signin-box .user {
+    margin: 10px 0;
+}
+.signin-btn{
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+.signin-btn a{
+    background: #00754a;
+    border-radius: 500px;
+    box-shadow: 0 0 6px #0000003d, 0 8px 12px #00000024;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    overflow: hidden;
+    padding: 18px 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .2s;
+    transition-property: transform, box-shadow, width, height;
+    transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+    z-index: 1;
+    cursor: pointer;
+}
+.signin-bottom{
+    padding: 40px 8px;
+    text-align: center;
+}
+.signin-bottom h2{
+    font-weight: 700;
+    color: #00754a;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.signin-bottom p{
+    max-width: 500px;
+    color: #000000de;
+    margin-bottom: 16px;
+}
+.signin-bottom a{
+    background: none;
+    color: #00754a;
+    border-radius: 50px;
+    border: 1px solid #000000de;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+}

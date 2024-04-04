@@ -1,0 +1,106 @@
+.join-now {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px 0 16px;
+}
+.joinnow-head {
+  max-width: 500px;
+  text-align: center;
+}
+.joinnow-head h1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.385;
+}
+.joinnow-head h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #00000094;
+  padding-bottom: 16px;
+}
+.joinnow-head p {
+  max-width: 100%;
+  font-size: 13px;
+  padding-bottom: 32px;
+}
+.joinnow-box {
+  margin-bottom: 69px;
+}
+.joinnow-input1,
+.joinnow-input2,.joinnow-input3 {
+  padding-bottom: 40px;
+}
+.joinnow-box .input1 div,
+.input2 div {
+  width: 100%;
+  border-radius: 15px;
+  border-color: rgba(0, 0, 0, 0.23);
+}
+.inputs h5 {
+  font-size: 19px;
+  font-weight: 600 !important;
+  margin-bottom: 40px !important;
+}
+.input1-text {
+  padding-top: 8px;
+  padding-left: 16px;
+}
+.acordion {
+  display: flex;
+}
+.acordion h5,
+svg {
+  color: #00754a;
+}
+.join-now .check{
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+}
+.join-now .check p{
+      margin: 0;
+}
+.joinnow-input3 h6{
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+  color: #00000094;
+}
+.joinnow-input3 p{
+    margin-bottom: 16px;
+    color: #000000de;
+}
+.joinnow-inputs-3-text{
+    margin-left: 25px;
+}
+.joinnow-btn{
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.joinnow-btn a{
+    background: #00754a;
+    border-radius: 500px;
+    box-shadow: 0 0 6px #0000003d, 0 8px 12px #00000024;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    overflow: hidden;
+    padding: 18px 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .2s;
+    transition-property: transform, box-shadow, width, height;
+    transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+
+   
