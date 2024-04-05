@@ -133,9 +133,9 @@ function Menu2left() {
 function Menu2Right() {
   
   const data = useContext(ProductContext);
-  console.log(data);
+  
   const path = useParams();
-console.log(path);
+
   return (
     <>
       <div className="menu-2-right">

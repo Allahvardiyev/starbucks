@@ -17,16 +17,19 @@ import UseCart from "./Components/UseCart/UseCart";
 import Signin from "./Components/page/Signin/Signin";
 import FindStore from "./Components/findStore/FindStore";
 import Joinnow from "./Components/page/Joinnow/Joinnow";
+import SideBar from "./Components/Sidebar/SideBar";
+import { useState } from "react";
 
 
 
 const App = () => {
+  const [sidebar, setSidebar] = useState(true)
   return (
     <>
      <ProductProvider>
         <CartProvider>
           <div>
-            <Header />
+            <Header sidebar={sidebar} setSidebar={setSidebar} />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/menu/:item" element={<Menu />}>
@@ -46,6 +49,7 @@ const App = () => {
               <Route path="/findstore" element={<FindStore/>}/>
               <Route path="/join" element={<Joinnow/>}/>
             </Routes>
+           <SideBar sidebar={sidebar}/>
             <Footer />
           </div>
         </CartProvider>

@@ -12,7 +12,6 @@ export const ProductProvider = ({ children }) => {
         const response = await axios.get(
           "../../data/data.json"
         );
-        console.log(response.data.coffee, "res");
 
         await setData(response?.data?.coffee);
       } catch (error) {

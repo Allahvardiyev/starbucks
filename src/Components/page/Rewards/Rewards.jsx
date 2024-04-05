@@ -26,10 +26,10 @@ const Rewards = () => {
   const [selecData, setselecData] = useState(
     data.data.find((item) => item.id === 25)
   );
-  console.log(selecData);
+
   const fitr = (e) => {
     const filterData = data.data.find((item) => item.id === +e.target.value);
-    console.log(filterData);
+   
     setselecData(filterData);
   };
   return (

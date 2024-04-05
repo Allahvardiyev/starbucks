@@ -790,7 +790,7 @@ function checkConsent() {
     if (consent) {
         // console.log(consent == 'false');
         // Show the cookie consent banner if consent is not given
-        // console.log('dd');
+        
         // document.querySelector(".cookie_container").style.display = "none";
     } else {
         // document.querySelector('body').innerHTML = cookieHtml
